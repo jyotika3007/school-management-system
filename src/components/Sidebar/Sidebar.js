@@ -14,7 +14,7 @@ function Sidebar (){
                             <a href="#" className="nav-link"><i className="flaticon-dashboard"></i><span>Dashboard</span></a>
                             <ul className="nav sub-group-menu">
                                 <li className="nav-item">
-                                    <a href="index.html" className="nav-link"><i className="fas fa-angle-right"></i>Admin</a>
+                                    <a href="index.html" className="nav-link  menu-active"><i className="fas fa-angle-right"></i>Admin</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="index3.html" className="nav-link"><i className="fas fa-angle-right"></i>Students</a>
@@ -93,7 +93,7 @@ function Sidebar (){
                                     <a href="all-fees.html" className="nav-link"><i className="fas fa-angle-right"></i>All Fees Collection</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="all-expense.html" className="nav-link menu-active"><i className="fas fa-angle-right"></i>Expenses</a>
+                                    <a href="all-expense.html" className="nav-link"><i className="fas fa-angle-right"></i>Expenses</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="add-expense.html" className="nav-link"><i className="fas fa-angle-right"></i>Add Expenses</a>
