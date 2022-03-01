@@ -1,12 +1,12 @@
 import React from "react";
 
-function Breadcrumbs(){
+function Breadcrumbs({title}){
     return(
         <div className="breadcrumbs-area">
-                    <h3>Dashboard</h3>
+                    <h3>{title}</h3>
                     <ul>
                         <li>
-                            <a href="index.html">Dashboard</a>
+                            <a href="index.html">{title}</a>
                         </li>
                     </ul>
                 </div>

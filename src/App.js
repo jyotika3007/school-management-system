@@ -1,23 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Sidebar from './components/Sidebar/Sidebar';
-import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs';
-import Dashboard from './components/Dashboard/Dashboard';
+import Home from './pages/Home/Home';
+import ClassesList from './pages/Classes/ClassesList';
+import Students from './pages/Students/Students';
 
 function App() {
   return (
     <div className="app">
-        <Header />
-        <div className="dashboard-page-one">
-          <Sidebar />
-          <div className="dashboard-content-one">
-            <Breadcrumbs />
-            <Dashboard />
-            <Footer />
-          </div>
-        </div>
+          {/* <Home /> */}
+          {/* <ClassesList /> */}
+          <Students />
     </div>
   );
 }
